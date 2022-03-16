@@ -1,0 +1,28 @@
+.dev-card {
+     height: 250px;
+     width: 250px;
+
+     padding: 20px;
+     border: 2px solid black;
+     margin: 10px;
+     background-color: darkslategray;
+
+     display: flex;
+     flex-direction: column;
+     text-align: start;
+     justify-content: space-evenly;
+
+}
+
+.dev-card:hover {
+     filter: brightness(0.9);
+}
+
+p {
+     width: 250px;
+     height: 20px;
+
+     font-weight: bold;
+     font-size: 20px;
+     font-family: monospace, Arial, Helvetica, sans-serif;
+}
